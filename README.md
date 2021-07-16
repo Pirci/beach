@@ -8,8 +8,7 @@ From [Fullstack Software Developer Bootcamp](https://www.seytech.co/)
 
 Preview: https://pirci.github.io/beach/
 
-
-
+![beach-homepage](https://user-images.githubusercontent.com/43238947/125914664-c91d4382-a3cd-45a8-be56-2f9367eef0d0.png)
 
 ## What I Learned:
 

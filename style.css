@@ -13,6 +13,8 @@ body {
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 input {
@@ -22,4 +24,91 @@ input {
 a {
   text-decoration: none;
   color: #000;
+}
+
+/* Core Style */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #926239;
+  line-height: 1.6;
+}
+
+/* Showcase Style */
+
+#showcase {
+  background-image: url(img/beachshowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* The most important detail of creating a landing page. Despite adding the section and p element under the header, the full height image will always appear because we added 100 vh(viewport height). */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px; /* Top & Bottom=0, Left & Right=20px */
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2em;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #926239;
+  border: #926239 1px solid;
+  padding: 10px 20px; /* Top & Bottom=10px, Left & Right=20px */
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#showcase .button:hover {
+  background: #926239;
+  color: #fff;
+}
+
+/* section-a style */
+
+#section-a {
+  padding: 20px;
+  background: #926239;
+  color: #fff;
+  text-align: center;
+}
+
+/* section-b style */
+
+#section-b {
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+/* section-c style */
+
+#section-c {
+  display: flex;
+}
+
+#section-c div {
+  padding: 20px;
+}
+
+#section-c div:nth-child(odd) {
+  /* Select only odd divs inside of section-c */
+  background: #926239;
+  color: #fff;
+}
+
+#section-c div:nth-child(even) {
+  /* Select only even divs inside of section-c */
+  background: #f9f9f9;
 }
