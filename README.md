@@ -1,8 +1,6 @@
-### Seytech Fullstack Software Developer Bootcamp
+### Beach Responsive Page
 
-> HTML & CSS #1st Tutorial Project (Beach).
-
-From [Fullstack Software Developer Bootcamp](https://www.seytech.co/)
+> HTML & CSS Beach Project.
 
 ## Live Demo
 
